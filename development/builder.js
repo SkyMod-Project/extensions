@@ -160,7 +160,7 @@ class HomepageFile extends BuildFile {
   }
 
   getRunExtensionURL(extensionSlug) {
-    return `localhost:8601/editor.html?extension=${this.getFullExtensionURL(
+    return `https://skymod-project.github.io/editor.html?extension=${this.getFullExtensionURL(
       extensionSlug
     )}`;
   }
@@ -171,7 +171,7 @@ class HomepageFile extends BuildFile {
    */
   getRunSampleURL(sampleFile) {
     const path = encodeURIComponent(`samples/${sampleFile.getSlug()}`);
-    return `localhost:8601/editor?project_url=${this.host}${path}`;
+    return `https://skymod-project.github.io/editor?project_url=${this.host}${path}`;
   }
 
   read() {
