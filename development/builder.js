@@ -144,7 +144,7 @@ class HomepageFile extends BuildFile {
     this.host =
       mode === "development"
         ? "http://localhost:8000/"
-        : "https://https://skymod-project.github.io/extensions/";
+        : "https://skymod-project.github.io/extensions/";
   }
 
   getType() {
