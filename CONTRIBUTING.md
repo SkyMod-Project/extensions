@@ -2,13 +2,13 @@
 
 Before you submit extensions, please read the custom extension tutorial **in full**:
 
- - https://docs.turbowarp.org/development/extensions/introduction
+ - https://skymod-project.github.io/docs/development/extensions/introduction
 
 Please pay special attention to:
 
- - Unsandboxed extensions: https://docs.turbowarp.org/development/extensions/unsandboxed
- - Maintaining backward compatibility: https://docs.turbowarp.org/development/extensions/compatibility
- - A better development server: https://docs.turbowarp.org/development/extensions/better-development-server
+ - Unsandboxed extensions: https://skymod-project.github.io/docs/development/extensions/unsandboxed
+ - Maintaining backward compatibility: https://skymod-project.github.io/docs/development/extensions/compatibility
+ - A better development server: https://skymod-project.github.io/docs/development/extensions/better-development-server
 
 Read this document **in full** too. Pull requests that don't follow the guidelines will take *much* longer to be reviewed.
 
